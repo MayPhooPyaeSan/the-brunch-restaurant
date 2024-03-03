@@ -235,6 +235,9 @@ body {
     margin: 0 10px;
     margin-bottom: 0;
   }
+  .address-container {
+    flex-wrap: wrap;
+  }
 }
 
 .menu-nav-container {
@@ -262,5 +265,8 @@ body {
   }
   .menu-container1 {
     margin-top: 1rem;
+  }
+  .address-container {
+    flex-wrap: wrap;
   }
 }

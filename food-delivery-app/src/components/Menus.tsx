@@ -2,6 +2,7 @@ import React from "react";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import Footer from "./Footer";
 
 const Menus = () => {
   return (
@@ -197,62 +198,6 @@ const Menus = () => {
                   Fresh eggs baked in individual muffin tins with a variety of
                   toppings such as cheese, bacon, and vegetables. A delightful
                   and easy-to-eat breakfast option.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="menu-container1">
-            <div style={{ maxWidth: "500px" }}>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  flexDirection: "row",
-                }}
-              >
-                <h4 style={{ color: "#f46000" }}>Biscuit Egg-in-a-Hole</h4>
-                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
-                  $9
-                </h4>{" "}
-              </div>
-              <div>
-                <p
-                  style={{
-                    marginTop: "0.5rem",
-                    color: "#573d32",
-                    fontWeight: "500",
-                  }}
-                >
-                  A savory twist on a classic breakfast dish, featuring a
-                  buttery biscuit with a perfectly cooked egg in the center.
-                  Served with a side of crispy bacon or sausage.
-                </p>
-              </div>
-            </div>
-            <div style={{ maxWidth: "500px" }}>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  flexDirection: "row",
-                }}
-              >
-                <h4 style={{ color: "#f46000" }}>Cheese Danish</h4>
-                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
-                  $5
-                </h4>{" "}
-              </div>
-              <div>
-                <p
-                  style={{
-                    marginTop: "0.5rem",
-                    color: "#573d32",
-                    fontWeight: "500",
-                  }}
-                >
-                  A flaky pastry filled with a sweet and creamy cheese filling,
-                  topped with a drizzle of icing. The perfect combination of
-                  buttery pastry and rich cheese flavor.
                 </p>
               </div>
             </div>
@@ -502,62 +447,6 @@ const Menus = () => {
                 }}
               >
                 <h4 style={{ color: "#f46000" }}>
-                  Speedy Steak and Blackberry Salad
-                </h4>
-                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>$20</h4>{" "}
-              </div>
-              <div>
-                <p
-                  style={{
-                    marginTop: "0.5rem",
-                    color: "#573d32",
-                    fontWeight: "500",
-                  }}
-                >
-                  Tender slices of steak served on a bed of mixed greens with
-                  fresh blackberries, crumbled feta cheese, and a balsamic
-                  glaze. A delightful combination of savory and sweet flavors.
-                </p>
-              </div>
-            </div>
-            <div style={{ maxWidth: "500px" }}>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  flexDirection: "row",
-                }}
-              >
-                <h4 style={{ color: "#f46000" }}>Swiss Chard Mac and Cheese</h4>
-                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
-                  $14
-                </h4>{" "}
-              </div>
-              <div>
-                <p
-                  style={{
-                    marginTop: "0.5rem",
-                    color: "#573d32",
-                    fontWeight: "500",
-                  }}
-                >
-                  Creamy macaroni and cheese made with Swiss chard for added
-                  nutrition and flavor. A comforting and satisfying dish that's
-                  perfect for mac and cheese lovers.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="menu-container1">
-            <div style={{ maxWidth: "500px" }}>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-between",
-                  flexDirection: "row",
-                }}
-              >
-                <h4 style={{ color: "#f46000" }}>
                   One-Pot Bacon Cheeseburger Pasta
                 </h4>
                 <h4 style={{ marginLeft: "50px", color: "#f46000" }}>$18</h4>{" "}
@@ -607,7 +496,423 @@ const Menus = () => {
             </div>
           </div>
         </div>
+        <h1
+          style={{
+            textAlign: "center",
+            marginTop: "1rem",
+            color: "#573d32",
+            textDecoration: "underline",
+            cursor: "pointer",
+          }}
+        >
+          Dinner
+        </h1>
+        <div style={{ marginTop: "1rem", padding: "20px" }}>
+          <div className="menu-container1">
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Pot Roast Crockpot</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $20
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  Tender and juicy pot roast slow-cooked in a crockpot with
+                  carrots, potatoes, and onions, seasoned to perfection. A
+                  comforting and hearty meal that's perfect for a cozy night in.
+                </p>
+              </div>
+            </div>
+            <div style={{ maxWidth: "500px", color: "#f46000" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Alfredo</h4>
+                <h4 style={{ marginLeft: "50px" }}>$14</h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  A classic Italian pasta dish featuring fettuccine noodles
+                  tossed in a creamy Alfredo sauce made with butter, cream, and
+                  Parmesan cheese. Rich, creamy, and indulgent, perfect for
+                  pasta lovers.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="menu-container1">
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Smothered Chicken</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $18
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  Tender chicken breasts smothered in a savory gravy with
+                  mushrooms and onions. Served with mashed potatoes and your
+                  choice of side, this dish is comfort food at its finest.
+                </p>
+              </div>
+            </div>
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Manicotti</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $16
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  Delicious manicotti pasta tubes filled with a creamy ricotta
+                  cheese mixture, topped with marinara sauce and melted
+                  mozzarella cheese. Served with garlic bread, this Italian
+                  classic is sure to satisfy.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="menu-container1">
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Dumpling Soup</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $14
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  A comforting and hearty soup filled with plump dumplings,
+                  vegetables, and savory broth. Perfect for a chilly day or
+                  whenever you need a warm and satisfying meal.
+                </p>
+              </div>
+            </div>
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Baked Salmon</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $22
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  Flaky, tender salmon fillet baked to perfection with a
+                  flavorful seasoning blend. Served with your choice of sides,
+                  this dish is a healthy and delicious option for seafood
+                  lovers.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="menu-container1">
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Sun-Dried Tomato Pasta</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $16
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  A flavorful pasta dish featuring al dente noodles tossed in a
+                  rich sun-dried tomato sauce. The sauce is made with sun-dried
+                  tomatoes, garlic, olive oil, and herbs, creating a savory and
+                  satisfying meal.
+                </p>
+              </div>
+            </div>
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>One-Pot Lemon Pasta</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $14
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  A quick and easy pasta dish that is cooked in one pot for
+                  minimal cleanup. This dish features spaghetti cooked in a
+                  lemony broth with garlic, Parmesan cheese, and fresh herbs,
+                  creating a light and refreshing meal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1
+          style={{
+            textAlign: "center",
+            marginTop: "1rem",
+            color: "#573d32",
+            textDecoration: "underline",
+            cursor: "pointer",
+          }}
+        >
+          Drinks
+        </h1>
+        <div style={{ marginTop: "1rem", padding: "20px" }}>
+          <div className="menu-container1">
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Oreo Chocolate</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $8.99
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  Indulge in the rich and creamy goodness of our Oreo Chocolate
+                  dessert. Made with layers of Oreo cookies and velvety
+                  chocolate, it's a delightful treat for any chocolate lover.
+                </p>
+              </div>
+            </div>
+            <div style={{ maxWidth: "500px", color: "#f46000" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Peach Smoothie</h4>
+                <h4 style={{ marginLeft: "50px" }}>$5.99</h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  Enjoy the refreshing taste of summer with our Peach Smoothie.
+                  Made with ripe, juicy peaches blended to perfection, it's a
+                  cool and satisfying drink for any time of day.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="menu-container1">
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>SGreen Tea Frappuccino</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $6.99
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  A creamy and icy blend of green tea, milk, and ice, topped
+                  with whipped cream for a refreshing pick-me-up.
+                </p>
+              </div>
+            </div>
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Mint Mojito</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $4.99
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  A refreshing blend of mint leaves, lime juice, sugar, and soda
+                  water, perfect for cooling off on a hot day.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="menu-container1">
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Berry Blast Smoothie</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $5.99
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  A mix of strawberries, blueberries, raspberries, and yogurt,
+                  blended into a fruity and creamy drink.
+                </p>
+              </div>
+            </div>
+            <div style={{ maxWidth: "500px" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: "row",
+                }}
+              >
+                <h4 style={{ color: "#f46000" }}>Mango Lassi</h4>
+                <h4 style={{ marginLeft: "50px", color: "#f46000" }}>
+                  $4.99
+                </h4>{" "}
+              </div>
+              <div>
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#573d32",
+                    fontWeight: "500",
+                  }}
+                >
+                  A traditional Indian drink made with mangoes, yogurt, and a
+                  touch of cardamom, offering a sweet and tangy flavor.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <Footer />
     </div>
   );
 };

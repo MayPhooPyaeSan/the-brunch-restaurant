@@ -9,6 +9,7 @@ import About from "./components/About";
 import ShowMenuPart from "./components/ShowMenuPart";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
+import Order from "./components/Order";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             }
           />
           <Route path="/menu" element={<Menus />} />
+          <Route path="/order" element={<Order />} />
         </Routes>
       </Router>
     </div>

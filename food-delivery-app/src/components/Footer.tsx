@@ -12,7 +12,7 @@ const Footer = () => {
         <h2 style={{ textTransform: "uppercase", marginBottom: "1rem" }}>
           Navigate
         </h2>
-        <a href="" style={{ textDecoration: "none", color: "white" }}>
+        <a href="/" style={{ textDecoration: "none", color: "white" }}>
           {" "}
           <h6>Home</h6>
         </a>
@@ -22,7 +22,7 @@ const Footer = () => {
         <a href="order" style={{ textDecoration: "none", color: "white" }}>
           <h6>Order</h6>
         </a>
-        <a href="" style={{ textDecoration: "none", color: "white" }}>
+        <a href="/" style={{ textDecoration: "none", color: "white" }}>
           {" "}
           <h6>Contact</h6>
         </a>
@@ -31,7 +31,7 @@ const Footer = () => {
         <h4 style={{ textTransform: "uppercase", marginBottom: "1rem" }}>
           Location
         </h4>
-        <h6>31 street</h6>
+        <h6>31 street | 32 street</h6>
         <h6>Chan Aye Thar Zan, Mandalay</h6>
         <h6>09-12345678</h6>
       </div>
