@@ -20,21 +20,21 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img src={foodbanner} className="d-block w-100" alt="First slide" />
         <Carousel.Caption className="carousel-caption-left">
-          <h3>Welcome To The Us To You.</h3>
+          <h3>Welcome To The "The Brunch"".</h3>
           <p>Best restaurant in downtown.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={foodbanner2} className="d-block w-100" alt="Second slide" />
         <Carousel.Caption className="carousel-caption-left">
-          <h3>Welcome To The Us To You.</h3>
+          <h3>Welcome To The "The Brunch"".</h3>
           <p>Best restaurant in downtown.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={foodbanner3} className="d-block w-100" alt="Third slide" />
         <Carousel.Caption className="carousel-caption-left">
-          <h3>Welcome To The Us To You.</h3>
+          <h3>Welcome To The "The Brunch"".</h3>
           <p>Best restaurant in downtown.</p>
         </Carousel.Caption>
       </Carousel.Item>

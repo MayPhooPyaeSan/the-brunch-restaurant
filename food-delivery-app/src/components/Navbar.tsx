@@ -7,7 +7,7 @@ function Layout() {
     <>
       <Navbar data-bs-theme="dark" style={{ background: "#573d32" }}>
         <Container>
-          <Navbar.Brand href="#home">Us To You</Navbar.Brand>
+          <Navbar.Brand href="#home">The Brunch</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="menu">Menus</Nav.Link>

@@ -10,7 +10,7 @@ const Menus = () => {
       <div className="menu-nav-container">
         <div>
           <a href="/" style={{ textDecoration: "none", color: "#573d32" }}>
-            <h1>Us To You</h1>
+            <h1>The Brunch</h1>
           </a>
         </div>
         <div>

@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="footer-container" id="contact">
       <div>
         <h4 style={{ textTransform: "uppercase", marginBottom: "1rem" }}>
-          Us To You
+          The Brunch
         </h4>
       </div>
       <div>
