@@ -29,7 +29,7 @@ const Footer = () => {
       </div>
       <div>
         <h4 style={{ textTransform: "uppercase", marginBottom: "1rem" }}>
-          Locations
+          Location
         </h4>
         <h6>31 street</h6>
         <h6>Chan Aye Thar Zan, Mandalay</h6>

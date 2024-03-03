@@ -236,3 +236,31 @@ body {
     margin-bottom: 0;
   }
 }
+
+.menu-nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.menu-container1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .menu-container1 div div {
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: -2rem;
+  }
+  .menu-container1 div div h4 {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .menu-container1 {
+    margin-top: 1rem;
+  }
+}
