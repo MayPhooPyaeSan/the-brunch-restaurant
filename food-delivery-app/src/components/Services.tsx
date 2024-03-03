@@ -22,6 +22,7 @@ const Services = () => {
             borderBottomRightRadius: "20px",
             borderTopLeftRadius: "20px",
             boxShadow: "rgba(33, 35, 38, 0.1) 0px 10px 10px -10px",
+            marginBottom: "10px",
           }}
         >
           <img src={foodgif} alt="" className="gif-img" />
@@ -38,6 +39,7 @@ const Services = () => {
             borderBottomRightRadius: "20px",
             borderTopLeftRadius: "20px",
             boxShadow: "rgba(33, 35, 38, 0.1) 0px 10px 10px -10px",
+            marginBottom: "10px",
           }}
         >
           <img src={audiogif} alt="" className="gif-img" />
@@ -54,6 +56,7 @@ const Services = () => {
             borderBottomRightRadius: "20px",
             borderTopLeftRadius: "20px",
             boxShadow: "rgba(33, 35, 38, 0.1) 0px 10px 10px -10px",
+            marginBottom: "10px",
           }}
         >
           <img src={chillgif} alt="" className="gif-img" />
