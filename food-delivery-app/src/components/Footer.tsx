@@ -40,7 +40,7 @@ const Footer = () => {
           Hours
         </h4>
         <h6>Mon-Fri 7am - 8pm</h6>
-        <h6>Sat-Sun 9am = 4pm</h6>
+        <h6>Sat-Sun 9am - 4pm</h6>
       </div>
     </div>
   );
