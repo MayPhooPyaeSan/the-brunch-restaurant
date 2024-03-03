@@ -1,6 +1,3 @@
-import React from "react";
-import Dots from "./dots";
-
 const About = () => {
   return (
     <div>
@@ -37,7 +34,6 @@ const About = () => {
           />
         </div>
       </div>
-      <Dots />
     </div>
   );
 };

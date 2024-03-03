@@ -8,6 +8,7 @@
 
 body {
   background-color: #fafafa;
+  height: 2000vh;
 }
 
 .carousel-item img {
@@ -189,6 +190,9 @@ body {
   align-items: center;
   gap: 20px;
   margin-top: 3rem;
+  padding: 20px;
+  cursor: pointer;
+  flex-wrap: wrap;
 }
 
 .gif-img {
@@ -196,6 +200,11 @@ body {
   background-color: #f46000;
   display: flex;
   margin: 0 auto;
-  border-radius: 50%;
+  border-radius: 10%;
   margin-bottom: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+.gif-img:hover {
+  filter: brightness(0.9);
 }

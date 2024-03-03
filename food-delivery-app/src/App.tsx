@@ -7,7 +7,6 @@ import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
 import Menus from "./components/Menus";
 import About from "./components/About";
 import ShowMenuPart from "./components/ShowMenuPart";
-import Dots from "./components/dots";
 import Services from "./components/Services";
 
 function App() {
@@ -23,7 +22,7 @@ function App() {
                 <Home />
                 <About />
                 <ShowMenuPart />
-                <Dots />
+
                 <Services />
               </>
             }
