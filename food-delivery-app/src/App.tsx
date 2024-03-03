@@ -8,6 +8,7 @@ import Menus from "./components/Menus";
 import About from "./components/About";
 import ShowMenuPart from "./components/ShowMenuPart";
 import Services from "./components/Services";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,8 +23,8 @@ function App() {
                 <Home />
                 <About />
                 <ShowMenuPart />
-
                 <Services />
+                <Footer />
               </>
             }
           />
